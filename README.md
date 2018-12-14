@@ -27,9 +27,9 @@
  - [7.4 Computer Memory](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html)
 - structrues
  - Array
- name | fnc | time complixity
- --- | --- | ---
- search |  array[index] |  O(1)
- add    |  array.push()  |  O(1)
- remove |  array.pop()   | O(1)
- unshift(add to the front) |  array.unshift() | O(1)
+name | fnc | time complixity
+--- | --- | ---
+search |  array[index] |  O(1)
+add    |  array.push()  |  O(1)
+remove |  array.pop()   | O(1)
+unshift(add to the front) |  array.unshift() | O(1)
