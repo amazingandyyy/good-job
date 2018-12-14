@@ -18,3 +18,18 @@
 4. Before you start coding, walk through your code and write down the steps you are going to follow.
 5. Try to break it
 6. Modulizing
+
+## Data Structures
+
+- external resource:
+ - [List of data structures](https://en.wikipedia.org/wiki/List_of_data_structures)
+ - [Registers and RAM: Crash Course Computer Science #6](https://www.youtube.com/watch?v=fpnE6UAfbtU)
+ - [7.4 Computer Memory](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html)
+- structrues
+ - Array
+ name | fnc | time complixity
+ --- | --- | ---
+ search |  array[index] |  O(1)
+ add    |  array.push()  |  O(1)
+ remove |  array.pop()   | O(1)
+ unshift(add to the front) |  array.unshift() | O(1)
