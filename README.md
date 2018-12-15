@@ -26,11 +26,21 @@
  - [Registers and RAM: Crash Course Computer Science #6](https://www.youtube.com/watch?v=fpnE6UAfbtU)
  - [7.4 Computer Memory](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html)
 - structrues
- - Array
+ - Array(static)
 
 Name | Fnc | Time complixity
 --- | --- | ---
 search |  array[index] |  O(1)
 add    |  array.push()  |  O(1)
 remove |  array.pop()   | O(1)
-unshift(add to the front) |  array.unshift() | O(1)
+unshift(add to the front) |  array.unshift('x') | O(n)
+splice |  array.splice(2, 0, 'alien)   | O(n)
+ 
+ - Array(Dynamic)
+
+Name | Time complixity
+--- | --- | ---
+lookup |  O(1)
+append |  O(1) or O(n)
+insert | O(n)
+delete | O(n)
