@@ -42,5 +42,24 @@ Name | Time complixity
 --- | --- | ---
 lookup |  O(1)
 append |  O(1) or O(n)
-insert | O(n)
-delete | O(n)
+insert |  O(n)
+delete |  O(n)
+
+  - questions
+   - [x] Reverse a String
+   - [x] Merge Two Sorted Arrays
+   - [x] Two Sum
+   - [ ] Maximum Subarray
+   - [ ] Move Zeroes
+   - [ ] Contains Duplicate
+   - [ ] Rotate Array
+
+ - Hash Table
+  - [ ] build your own hash table
+
+Name | Time complixity
+--- | --- | ---
+lookup |  O(1)
+append |  O(1)
+insert |  O(1)
+keys   |  O(n)
