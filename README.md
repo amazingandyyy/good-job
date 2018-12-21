@@ -30,8 +30,9 @@
 
 Name | Fnc | Time complixity
 --- | --- | ---
-search |  array[index] |  O(1)
-add    |  array.push()  |  O(1)
+search |  array.indexOf() |  O(n)
+lookup |  array[index] |  O(1)
+append    |  array.push()  |  O(1)
 remove |  array.pop()   | O(1)
 unshift(add to the front) |  array.unshift('x') | O(n)
 splice |  array.splice(2, 0, 'alien)   | O(n)
@@ -63,3 +64,35 @@ lookup |  O(1)
 append |  O(1)
 insert |  O(1)
 keys   |  O(n)
+
+ - use hashtable to optimize something
+ - pros and cons
+  - fast lookups, more memery usage;
+  - fast inserts
+  - flexible keys
+  - it's unordered
+  - slow key iteration
+
+ - linked list
+  - singly linked list
+
+Name | Time complixity
+--- | --- | ---
+prepend |  O(1)
+append  |  O(1)
+lookup  |  O(n)
+insert  |  O(n)
+delete  |  O(n)
+
+  - doubly linked list
+
+Name | Time complixity
+--- | --- | ---
+prepend |  O(1)
+append  |  O(1)
+lookup  |  O(n)
+insert  |  O(n)
+delete  |  O(n)
+
+ - questions
+  - [x] Reverse a list
