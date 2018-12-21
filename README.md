@@ -40,7 +40,7 @@ splice |  array.splice(2, 0, 'alien)   | O(n)
  - Array(Dynamic)
 
 Name | Time complixity
---- | --- | ---
+--- | ---
 lookup |  O(1)
 append |  O(1) or O(n)
 insert |  O(n)
@@ -59,7 +59,7 @@ delete |  O(n)
   - [ ] build your own hash table
 
 Name | Time complixity
---- | --- | ---
+--- | ---
 lookup |  O(1)
 append |  O(1)
 insert |  O(1)
@@ -77,7 +77,7 @@ keys   |  O(n)
   - singly linked list
 
 Name | Time complixity
---- | --- | ---
+--- | ---
 prepend |  O(1)
 append  |  O(1)
 lookup  |  O(n)
@@ -87,7 +87,7 @@ delete  |  O(n)
   - doubly linked list
 
 Name | Time complixity
---- | --- | ---
+--- | ---
 prepend |  O(1)
 append  |  O(1)
 lookup  |  O(n)
