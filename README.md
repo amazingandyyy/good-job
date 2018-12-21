@@ -25,8 +25,10 @@
  - [List of data structures](https://en.wikipedia.org/wiki/List_of_data_structures)
  - [Registers and RAM: Crash Course Computer Science #6](https://www.youtube.com/watch?v=fpnE6UAfbtU)
  - [7.4 Computer Memory](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html)
-- structrues
- - Array(static)
+
+### Array
+
+#### Array(static)
 
 Name | Fnc | Time complixity
 --- | --- | ---
@@ -37,7 +39,7 @@ remove |  array.pop()   | O(1)
 unshift(add to the front) |  array.unshift('x') | O(n)
 splice |  array.splice(2, 0, 'alien)   | O(n)
  
- - Array(Dynamic)
+#### Array(Dynamic)
 
 Name | Time complixity
 --- | ---
@@ -55,7 +57,7 @@ delete |  O(n)
    - [ ] Contains Duplicate
    - [ ] Rotate Array
 
- - Hash Table
+### Hash Table
   - [ ] build your own hash table
 
 Name | Time complixity
@@ -73,8 +75,9 @@ keys   |  O(n)
   - it's unordered
   - slow key iteration
 
- - linked list
-  - singly linked list
+### linked list
+
+#### singly linked list
 
 Name | Time complixity
 --- | ---
@@ -84,7 +87,7 @@ lookup  |  O(n)
 insert  |  O(n)
 delete  |  O(n)
 
-  - doubly linked list
+#### doubly linked list
 
 Name | Time complixity
 --- | ---
@@ -96,3 +99,5 @@ delete  |  O(n)
 
  - questions
   - [x] Reverse a list
+
+### Stacks and Queues
