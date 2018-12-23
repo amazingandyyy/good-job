@@ -98,6 +98,27 @@ insert  |  O(n)
 delete  |  O(n)
 
  - questions
+
   - [x] Reverse a list
 
 ### Stacks and Queues
+
+#### Stacks
+- LIFO(last in, first out)
+
+Name | Time complixity
+--- | ---
+lookup |  O(n)
+pop    |  O(1)
+push   |  O(1)
+peek   |  O(1)
+
+#### Queues
+- FIFO(first in, first out)
+
+Name | Time complixity
+--- | ---
+lookup     |  O(n)
+enqueue    |  O(1)
+dequeue    |  O(1)
+peek       |  O(1)
