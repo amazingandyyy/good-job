@@ -98,12 +98,12 @@ insert  |  O(n)
 delete  |  O(n)
 
  - questions
-
   - [x] Reverse a list
 
 ### Stacks and Queues
 
-#### Stacks
+#### Stacks - plates
+
 - LIFO(last in, first out)
 
 Name | Time complixity
@@ -113,7 +113,8 @@ pop    |  O(1)
 push   |  O(1)
 peek   |  O(1)
 
-#### Queues
+#### Queues - waiting line
+
 - FIFO(first in, first out)
 
 Name | Time complixity
@@ -122,3 +123,23 @@ lookup     |  O(n)
 enqueue    |  O(1)
 dequeue    |  O(1)
 peek       |  O(1)
+
+- questions
+  - [x] stack using ll
+  - [x] stack using array
+  - [x] queue using ll
+  - [x] queue using stacks
+
+### Tree
+
+- binary tree
+  - perfect binary tree
+  - full binary tree
+
+- binary search tree ([BST](https://visualgo.net/bn/bst))
+
+Name | Time complixity
+--- | ---
+lookup    |  O(log N)
+insert    |  O(log N)
+delete    |  O(log N)
