@@ -132,14 +132,37 @@ peek       |  O(1)
 
 ### Tree
 
-- binary tree
+- Binary tree
   - perfect binary tree
   - full binary tree
-
-- binary search tree ([BST](https://visualgo.net/bn/bst))
+  - binary search tree ([BST](https://visualgo.net/bn/bst))
 
 Name | Time complixity
 --- | ---
 lookup    |  O(log N)
 insert    |  O(log N)
 delete    |  O(log N)
+
+  - questions
+    - [x] insert
+    - [x] lookup
+    - [x] remove
+    - [ ] max
+    - [ ] min
+    - [ ] isBalanced
+
+  - Balanced BST (don't need to know how to write it, but need to know how to explain it)
+    - AVL Tree
+    - Red Black Tree
+
+  - Heap
+   - binary heap
+
+Name | Time complixity
+--- | ---
+lookup    |  O(N)
+insert    |  O(log N)
+delete    |  O(log N)
+
+  - Trie
+   - faster searching for strings, ip address ... etc
