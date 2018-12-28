@@ -29,5 +29,5 @@
 - tree
 - graph
 
-## Algorithm
+## Algorithms
 

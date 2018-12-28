@@ -1,13 +1,13 @@
-## Data Structures
+# Data Structures
 
 - external resource:
  - [List of data structures](https://en.wikipedia.org/wiki/List_of_data_structures)
  - [Registers and RAM: Crash Course Computer Science #6](https://www.youtube.com/watch?v=fpnE6UAfbtU)
  - [7.4 Computer Memory](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html)
 
-### Array
+## Array
 
-#### Array(static)
+### Array(static)
 
 Name | Fnc | Time complixity
 --- | --- | ---
@@ -18,7 +18,7 @@ remove |  array.pop()   | O(1)
 unshift(add to the front) |  array.unshift('x') | O(n)
 splice |  array.splice(2, 0, 'alien)   | O(n)
  
-#### Array(Dynamic)
+### Array(Dynamic)
 
 Name | Time complixity
 --- | ---
@@ -36,7 +36,7 @@ delete |  O(n)
    - [ ] Contains Duplicate
    - [ ] Rotate Array
 
-### Hash Table
+## Hash Table
   - [ ] build your own hash table
 
 Name | Time complixity
@@ -54,9 +54,9 @@ keys   |  O(n)
   - it's unordered
   - slow key iteration
 
-### linked list
+## linked list
 
-#### singly linked list
+### singly linked list
 
 Name | Time complixity
 --- | ---
@@ -66,7 +66,7 @@ lookup  |  O(n)
 insert  |  O(n)
 delete  |  O(n)
 
-#### doubly linked list
+### doubly linked list
 
 Name | Time complixity
 --- | ---
@@ -79,9 +79,9 @@ delete  |  O(n)
  - questions
   - [x] Reverse a list
 
-### Stacks and Queues
+## Stacks and Queues
 
-#### Stacks - plates
+### Stacks - plates
 
 - LIFO(last in, first out)
 
@@ -92,7 +92,7 @@ pop    |  O(1)
 push   |  O(1)
 peek   |  O(1)
 
-#### Queues - waiting line
+### Queues - waiting line
 
 - FIFO(first in, first out)
 
@@ -109,7 +109,7 @@ peek       |  O(1)
   - [x] queue using ll
   - [x] queue using stacks
 
-### Tree
+## Tree
 
 - Binary tree
   - perfect binary tree
@@ -146,7 +146,7 @@ delete    |  O(log N)
   - Trie
    - faster searching for strings, ip address ... etc
 
-### Graph
+## Graph
 
 - directed graph (only one direction between nodes)
 - undirected graph
