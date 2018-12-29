@@ -17,7 +17,15 @@ pros & cons:
 when to use resursion:
 
 - Everytime you are using a tree or converting something into a tree
- - 1. devided into number of subproblems that are smaller instances of the same problem.
- - 2. each instance of the subproblem is identical in nature
- - 3. the solutions of each subproblem can be combined to solve the problem at hand
+ 1. devided into number of subproblems that are smaller instances of the same problem.
+ 2. each instance of the subproblem is identical in nature
+ 3. the solutions of each subproblem can be combined to solve the problem at hand
 - Devide and conquer using recursion
+
+## Sorting
+
+- buble sort
+- selection sort
+- insertion sort
+
+animation [resources](https://www.toptal.com/developers/sorting-algorithms)
