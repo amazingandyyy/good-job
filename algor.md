@@ -24,8 +24,25 @@ when to use resursion:
 
 ## Sorting
 
-- buble sort
-- selection sort
-- insertion sort
-
 animation [resources](https://www.toptal.com/developers/sorting-algorithms)
+
+### selection sort (dumpest one)
+
+- go thru everything to find the smallest one, then move to search for second smallest one...etc until the last index.
+- space: O(1)
+- time: O(N^2)
+
+### bubble sort (two-two compare)
+
+- two-two compare, swap when j > j+1, push the larger to the right until hit a much larger one.
+- space: O(1)
+- time: O(N^2)
+
+### insertion sort (compare the first/previouses)
+
+- if it's smaller then the first one then unshift to the first, otherwise comparing to others previous ones until find the right spot and then swap.
+- space: O(1)
+- time: O(N^2)
+
+### merge sort
+
