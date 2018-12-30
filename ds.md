@@ -1,9 +1,10 @@
 # Data Structures
 
-- external resource:
- - [List of data structures](https://en.wikipedia.org/wiki/List_of_data_structures)
- - [Registers and RAM: Crash Course Computer Science #6](https://www.youtube.com/watch?v=fpnE6UAfbtU)
- - [7.4 Computer Memory](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html)
+external resource:
+
+- [List of data structures(wiki)](https://en.wikipedia.org/wiki/List_of_data_structures)
+- [Registers and RAM: Crash Course Computer Science #6(youtube)](https://www.youtube.com/watch?v=fpnE6UAfbtU)
+- [7.4 Computer Memory](http://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html)
 
 ## Array
 
@@ -54,7 +55,7 @@ keys   |  O(n)
   - it's unordered
   - slow key iteration
 
-## linked list
+## Linked List
 
 ### singly linked list
 
