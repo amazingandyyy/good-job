@@ -1,4 +1,4 @@
-# good-job
+# 🎉 You can do a good-job!
 
 ## Big O
 
@@ -41,3 +41,13 @@ steps
 4. Before you start coding, walk through your code and write down the steps you are going to follow.
 5. Try to break it
 6. Modulizing
+
+#### references
+
+- [Master The Coding Interview Data Structures Algorithms](https://www.udemy.com/master-the-coding-interview-data-structures-algorithms)
+- [algorithms in js](https://github.com/amazingandyyy/algorithms-in-js)
+
+
+#### License
+
+[MIT](https://github.com/amazingandyyy/good-job/blob/master/LICENSE)
