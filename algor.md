@@ -53,4 +53,10 @@ animation [resources](https://www.toptal.com/developers/sorting-algorithms)
 - time: O(Nlog(N))
 - stable
 
+### quick sort (devide an conquer)
+
+- random pick one to be challanged, then move everything to half half(sllr), split them, then do it recurring, until everything is in place.
+- space: O(N)
+- time: O(Nlog(N))
+
 ### quick sort
