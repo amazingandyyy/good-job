@@ -59,4 +59,22 @@ animation [resources](https://www.toptal.com/developers/sorting-algorithms)
 - space: O(N)
 - time: O(Nlog(N))
 
-### quick sort
+### Others
+
+- heap sort([resource](https://brilliant.org/wiki/heap-sort/))
+
+non-comparison sort: only works for integers(not decimal), because the way integers are stored in the disk
+
+- couting sort ([video](https://www.cs.usfca.edu/~galles/visualization/CountingSort.html))
+- radix sort ([video](https://www.cs.usfca.edu/~galles/visualization/RadixSort.html))
+
+## which one is the best
+
+principles:
+
+- insertion: easy implment, good for small, super fast for almost sorted.
+- bubble: never really used them, it's only for education purpose.
+- selection: never really used them, it's only for education purpose.
+
+- merge: devide conquer, fast, BUT memery expensive
+- quick: devide conquer, fast, BUT the worst time complexity is O(N^2)
