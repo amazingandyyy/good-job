@@ -45,7 +45,7 @@ steps
 #### references
 
 - [Master The Coding Interview Data Structures Algorithms](https://www.udemy.com/master-the-coding-interview-data-structures-algorithms)
-- [algorithms in js](https://github.com/amazingandyyy/algorithms-in-js)
+- [Algorithms In Js](https://github.com/amazingandyyy/algorithms-in-js)
 
 
 #### License

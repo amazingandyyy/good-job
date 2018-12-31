@@ -44,5 +44,13 @@ animation [resources](https://www.toptal.com/developers/sorting-algorithms)
 - space: O(1)
 - time: O(N^2)
 
-### merge sort
+### merge sort (devide an conquer)
 
+![image](https://i.imgur.com/9nxdbYB.png)
+
+- devided to pieces and compare then merge them
+- space: O(N)
+- time: O(Nlog(N))
+- stable
+
+### quick sort
