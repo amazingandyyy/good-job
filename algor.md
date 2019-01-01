@@ -68,7 +68,7 @@ non-comparison sort: only works for integers(not decimal), because the way integ
 - couting sort ([video](https://www.cs.usfca.edu/~galles/visualization/CountingSort.html))
 - radix sort ([video](https://www.cs.usfca.edu/~galles/visualization/RadixSort.html))
 
-## which one is the best
+### which one is the best
 
 principles:
 
@@ -78,3 +78,9 @@ principles:
 
 - merge: devide conquer, fast, BUT memery expensive
 - quick: devide conquer, fast, BUT the worst time complexity is O(N^2)
+
+## BFS - DFS Searching
+
+
+
+## Dynamic Programming
