@@ -79,8 +79,16 @@ principles:
 - merge: devide conquer, fast, BUT memery expensive
 - quick: devide conquer, fast, BUT the worst time complexity is O(N^2)
 
-## BFS - DFS Searching
+## Searching
 
-
+- linear( O(N) )
+- binary( O(Log(N)) )
+- deptch first
+  - less memory
+  - does path exist
+  - can get slow
+- breadth first
+  - shortest path closer nodes
+  - more memory
 
 ## Dynamic Programming
