@@ -79,18 +79,35 @@ principles:
 - merge: devide conquer, fast, BUT memery expensive
 - quick: devide conquer, fast, BUT the worst time complexity is O(N^2)
 
-- linear( O(N) )
-- binary( O(Log(N)) )
-- deptch first(DFS)
-  - less memory
-  - does path exist
-  - can get slow
-- breadth first(BFS)
-  - shortest path to closer nodes
-  - more memory
-  - 3 kinds
-    - inorder
-    - preorder
-    - postorder
+## Search
+
+### linear(O(N))
+
+### binary(O(logN))
+
+### deptch first(DFS)
+
+- less memory
+- ?: does path exist
+- can get slow when the tree is deep
+
+### breadth first(BFS)
+
+- more memory
+- ?: shortest path, closer nodes(will check the closet one)
+- 3 methods
+  - inorder
+  - postorder
+  - preorder
+
+### Find the shorted weighted path
+
+- Bellman-Ford
+  - no negative
+- Dijkstra
+  - time complexity: O(N^2)
 
 ## Dynamic Programming
+
+Optimization technique with **caching**.
+

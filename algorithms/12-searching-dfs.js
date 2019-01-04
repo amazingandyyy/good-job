@@ -21,6 +21,7 @@ class BST extends BinarySearchTree {
 
 function traverseInOrder(node, list) {
  // Inorder - [1, 4, 6, 9, 15, 20, 170]
+ // console.log(node.value);
  if(node.left){
   traverseInOrder(node.left, list);
  }
@@ -62,9 +63,9 @@ tree.insert(170)
 tree.insert(15)
 tree.insert(1)
 
-console.log(tree.DFSInorder());
-console.log(tree.DFSPostorder());
-console.log(tree.DFSPreorder());
+console.log('Inorder', tree.DFSInorder()); // [1, 4, 6, 9, 15, 20, 170 ]
+console.log('Postorder', tree.DFSPostorder()); // [ 1, 6, 4, 15, 170, 20, 9 ]
+console.log('Preorder', tree.DFSPreorder()); // [ 9, 4, 1, 6, 20, 15, 170 ]
 //     9
 //  4     20
 //1  6  15  170

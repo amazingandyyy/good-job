@@ -26,7 +26,7 @@ class BST extends BinarySearchTree {
 			return list;
 		}
 
-		let currentNode = queue.shift();
+		let currentNode = queue.shift();  // take the first one.
 		list.push(currentNode.value);
 		if(currentNode.left) {
 			queue.push(currentNode.left)
