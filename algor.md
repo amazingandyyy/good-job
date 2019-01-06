@@ -111,3 +111,15 @@ principles:
 
 Optimization technique with **caching**.
 
+dynamic programming = divide & conquer + memoization
+
+1. can be devided into subproblem
+2. recursive solution
+3. are there repetitive subproblems?
+4. memoize subproblem
+
+more questions
+
+1. [House Robber](https://leetcode.com/problems/house-robber/)
+2. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+3. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
