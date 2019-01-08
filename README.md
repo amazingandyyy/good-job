@@ -31,7 +31,7 @@ external resource: http://bigocheatsheet.com/
   - insertion
   - merge
 
-## Handle interview questions
+## Handle technical interview questions
 
 steps
 
@@ -42,7 +42,7 @@ steps
 5. Try to break it
 6. Modulizing
 
-#### references
+### references
 
 - [Master The Coding Interview Data Structures Algorithms](https://www.udemy.com/master-the-coding-interview-data-structures-algorithms)
 - [Algorithms In Js](https://github.com/amazingandyyy/algorithms-in-js)
