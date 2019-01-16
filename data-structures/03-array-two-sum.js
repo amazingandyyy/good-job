@@ -19,13 +19,13 @@
 var twoSum = function(nums, target) {
 	let map = {};
 	for(let j=0 ; j<nums.length; j++) {
-if(map[nums[j]]==undefined){
-	map[target-nums[j]] = j;
-}else{
-	return [map[nums[j]],j]
-}
+		if(map[nums[j]]==undefined){
+			map[target-nums[j]] = j;
+		}else{
+			return [map[nums[j]],j]
+		}
 	}
-return [];
+	return [];
 };
 
-twoSum([2, 7, 11, 15], 9);
+console.log(twoSum([2, 7, 11, 15], 18));

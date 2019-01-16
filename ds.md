@@ -28,17 +28,18 @@ append |  O(1) or O(n)
 insert |  O(n)
 delete |  O(n)
 
-  - questions
-   - [x] Reverse a String
-   - [x] Merge Two Sorted Arrays
-   - [x] Two Sum
-   - [ ] Maximum Subarray
-   - [ ] Move Zeroes
-   - [ ] Contains Duplicate
-   - [ ] Rotate Array
+- questions
+  - [x] Reverse a String
+  - [x] Merge Two Sorted Arrays
+  - [x] Two Sum
+  - [ ] Maximum Subarray
+  - [ ] Move Zeroes
+  - [ ] Contains Duplicate
+  - [ ] Rotate Array
 
 ## Hash Table
-  - [ ] build your own hash table
+  
+- [ ] build your own hash table
 
 Name | Time complixity
 --- | ---
@@ -47,8 +48,7 @@ append |  O(1)
 insert |  O(1)
 keys   |  O(n)
 
- - use hashtable to optimize something
- - pros and cons
+- use hashtable to optimize something
   - fast lookups, more memery usage;
   - fast inserts
   - flexible keys
@@ -77,7 +77,7 @@ lookup  |  O(n)
 insert  |  O(n)
 delete  |  O(n)
 
- - questions
+- questions
   - [x] Reverse a list
 
 ## Stacks and Queues
@@ -123,20 +123,20 @@ lookup    |  O(log N)
 insert    |  O(log N)
 delete    |  O(log N)
 
-  - questions
-    - [x] insert
-    - [x] lookup
-    - [x] remove
-    - [ ] max
-    - [ ] min
-    - [ ] isBalanced
+- questions
+  - [x] insert
+  - [x] lookup
+  - [x] remove
+  - [ ] max
+  - [ ] min
+  - [ ] isBalanced
 
-  - Balanced BST (don't need to know how to write it, but need to know how to explain it)
-    - AVL Tree
-    - Red Black Tree
+- Balanced BST (don't need to know how to write it, but need to know how to explain it)
+  - AVL Tree
+  - Red Black Tree
 
-  - Heap
-   - binary heap
+- Heap
+  - binary heap
 
 Name | Time complixity
 --- | ---
@@ -144,8 +144,8 @@ lookup    |  O(N)
 insert    |  O(log N)
 delete    |  O(log N)
 
-  - Trie
-   - faster searching for strings, ip address ... etc
+- Trie
+  - faster searching for strings, ip address ... etc
 
 ## Graph
 

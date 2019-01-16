@@ -123,3 +123,19 @@ more questions
 1. [House Robber](https://leetcode.com/problems/house-robber/)
 2. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 3. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+
+## Questions
+
+[x] reverseStringArray('Hi')
+[x] isPalindrome('eye') ([link](https://medium.freecodecamp.org/two-ways-to-check-for-palindromes-in-javascript-64fea8191fd7))
+[x] twoSum([2,7,11,59], 18)
+[x] traverseInLinkedList()
+[x] removeLinkedListIndex()
+[x] reverseLinkedList()
+[x] queueInTwoStacks()
+[x] insertToBST(val)
+[x] fibonacci()
+[x] reverseStringRecursive()
+[x] reverseStringIter()
+[x] bubbleSort()
+[x] selectionSort()

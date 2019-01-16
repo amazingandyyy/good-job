@@ -7,7 +7,7 @@ function reverseStringRecursive(str) {
 
 function reverseStringIter(str) {
  let result = '';
- for(let i=str.length; i>0;i--){
+ for(let i=str.length; i>0; i--){
   result = result+str[i-1];
  }
  return result;

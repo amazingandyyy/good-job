@@ -43,7 +43,7 @@ class LinkedList{
   }
 
   while(currentNode) {
-    lastNode=currentNode;
+    lastNode = currentNode;
     currentNode = currentNode.next;
     _index++;
     if(_index == index){

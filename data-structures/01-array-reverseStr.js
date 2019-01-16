@@ -1,6 +1,6 @@
-// "Hi My name is Andrei"
-// "ierdnA si eman yM iH"
-
+// "Hi My name is Andy"
+// "ydnA si eman yM iH"
+ 
 function reverse(str) {
 	if(str.length < 2) return str;
 	if(!str || typeof str !== 'string') return 'hmm bad!';
@@ -11,5 +11,5 @@ function reverse(str) {
 	}
 	return backwards.join('');
 }
-const str = "Hi My name is Andrei";
+const str = "Hi My name is Andy";
 console.log(reverse(str));
