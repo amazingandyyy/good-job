@@ -90,15 +90,15 @@ principles:
 - less memory
 - ?: does path exist
 - can get slow when the tree is deep
+- 3 methods
+  - inorder
+  - postorder
+  - preorder
 
 ### breadth first(BFS)
 
 - more memory
 - ?: shortest path, closer nodes(will check the closet one)
-- 3 methods
-  - inorder
-  - postorder
-  - preorder
 
 ### Find the shorted weighted path
 

@@ -3,6 +3,7 @@
 const { BinarySearchTree } = require('./10-searching-binary');
 
 class BST extends BinarySearchTree {
+	// doesn't matter if it's balanced or not
 	breadthFirstSearch() {
 		let currentNode = this.root;
 		let list = [];
