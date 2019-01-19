@@ -12,9 +12,8 @@ function numIslands(matrix) {
  for(let i = 0; i< matrix.length; i++){
   for(let j = 0; j< matrix[i].length; j++) {
     if(matrix[i][j] === "1") {
-     matrix[i][j] = "#";
-     isLand(matrix, i, j);
      count++;
+     isLand(matrix, i, j);
     }
   }
  }
@@ -22,18 +21,14 @@ function numIslands(matrix) {
 }
 
 function isLand(matrix, i, j) {
- checkXY(matrix, i, j+1); // right
- checkXY(matrix, i-1, j); // top
- checkXY(matrix, i, j-1); // left
- checkXY(matrix, i+1, j); // bottom
-}
-
-function checkXY(matrix, i, j) {
- if(matrix[i] && matrix[i][j] == "1") {
-  matrix[i][j] = "0";
-  isLand(matrix, i, j);
- }
- return;
+  if(matrix[i] && matrix[i][j] == "1") {
+    matrix[i][j] = "0";
+    isLand(matrix, i, j+1); // right
+    isLand(matrix, i-1, j); // top
+    isLand(matrix, i, j-1); // left
+    isLand(matrix, i+1, j); // bottom
+  }
+  return;
 }
 
 const matrix = [
