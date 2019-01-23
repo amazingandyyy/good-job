@@ -40,22 +40,22 @@ animation [resources](https://www.toptal.com/developers/sorting-algorithms)
 
 ### insertion sort (compare the first/previouses)
 
-- if it's smaller then the first one then unshift to the first, otherwise comparing to others previous ones until find the right spot and then swap.
+- if it's smaller than the first one then unshift to the first, otherwise comparing to others previous ones until find the right spot and then swap.
 - space: O(1)
 - time: O(N^2)
 
-### merge sort (devide an conquer)
+### merge sort (Divide-and-Conquer approach)
 
 ![image](https://i.imgur.com/9nxdbYB.png)
 
 - devided to pieces and compare then merge them
 - space: O(N)
 - time: O(Nlog(N))
-- stable
+- *stable*
 
-### quick sort (devide an conquer)
+### quick sort (Divide-and-Conquer approach)
 
-- random pick one to be challanged, then move everything to half half(sllr), split them, then do it recurring, until everything is in place.
+- random pick one to be challanged, then move everything to half-half(sl-lr), split them, then do it recurring, until everything is in place.
 - space: O(N)
 - time: O(Nlog(N))
 
@@ -72,12 +72,12 @@ non-comparison sort: only works for integers(not decimal), because the way integ
 
 principles:
 
-- insertion: easy implment, good for small, super fast for almost sorted.
+- insertion: easy implement, good for small, **super fast** for almost sorted.
 - bubble: never really used them, it's only for education purpose.
 - selection: never really used them, it's only for education purpose.
 
-- merge: devide conquer, fast, BUT memery expensive
-- quick: devide conquer, fast, BUT the worst time complexity is O(N^2)
+- merge: devide&conquer, fast, BUT **memery expensive**
+- quick: devide&conquer, fast, BUT the **worst time complexity is O(N^2)**
 
 ## Search
 
@@ -85,7 +85,13 @@ principles:
 
 ### binary(O(logN))
 
-### deptch first(DFS)
+### breadth first(BFS)
+
+- get the first value, then check children, if it has any, push them to queue, looping until the queue is empty, return result
+- more memory
+- ?: shortest path, closer nodes(will check the closet one)
+
+### depth first(DFS)
 
 - less memory
 - ?: does path exist
@@ -94,11 +100,6 @@ principles:
   - inorder
   - postorder
   - preorder
-
-### breadth first(BFS)
-
-- more memory
-- ?: shortest path, closer nodes(will check the closet one)
 
 ### Find the shorted weighted path
 

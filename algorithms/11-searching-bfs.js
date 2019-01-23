@@ -8,15 +8,26 @@ class BST extends BinarySearchTree {
 		let currentNode = this.root;
 		let list = [];
 		let queue = [];
+		
+		// push the currentNode first
 		queue.push(currentNode);
-
+		
+		// do the checking until no more children in the queue
 		while(queue.length > 0) {
+			// get the first in the queue out
+			// shift = leftpop;
 			currentNode = queue.shift();
+
+			// do something to the value
 			list.push(currentNode.value);
+			// keep going
+			// checking left child FIRST
 			if(currentNode.left) {
+				// if it has left child, push to queue
 				queue.push(currentNode.left)
 			}
 			if(currentNode.right) {
+				// if it has right child, push to queue
 				queue.push(currentNode.right)
 			}
 		}
@@ -24,17 +35,27 @@ class BST extends BinarySearchTree {
 	}
 	breadthFirstSearchRecursion(queue, list) {
 		if(!queue.length) {
+			// if the no more child in the queue
+			// return the result
 			return list;
 		}
-
-		let currentNode = queue.shift();  // take the first one.
+		// take the first one
+		let currentNode = queue.shift();  
+		// use the value
 		list.push(currentNode.value);
+
+		// keep going
+		// checking left child FIRST
 		if(currentNode.left) {
+			// if it has left child, push to queue
 			queue.push(currentNode.left)
 		}
 		if(currentNode.right) {
+			// if it has left child, push to queue
 			queue.push(currentNode.right)
 		}
+		// recurring call the function with
+		// queue and the result list
 		return this.breadthFirstSearchRecursion(queue, list)
 	}
 }
