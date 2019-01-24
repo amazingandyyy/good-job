@@ -4,13 +4,13 @@ const { BinarySearchTree } = require('./10-searching-binary');
 
 class BST extends BinarySearchTree {
 	isValidBST(root) {
-  return this.check(root, Number.MIN_SAFE_INTEGER, Number.MAX_SAFE_INTEGER);
+  return this.check(Number.MIN_SAFE_INTEGER, root, Number.MAX_SAFE_INTEGER);
  }
- check(root, min, max) {
+ check(min, root, max) {
   if(!root) return true;
   if(root.value > max || root.value < min) return false;
 
-  return this.check(root.left, min, root.value-1) && this.check(root.right, root.value+1, max);
+  return this.check(min, root.left, root.value-1) && this.check(root.value+1, root.right, max);
  }
 }
 
