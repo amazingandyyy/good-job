@@ -4,10 +4,10 @@
 
 rules
 
- 1. Always worst Case
- 2. Remove Constants
- 3. Different inputs should have different variables. O(a+b). A and B arrays nested would be O(a*b)
- 4. Drop Non-dominant terms O(n+ n^2) ->O(n^2)
+1. Always worst case
+2. Remove constants
+3. Different inputs should have different variables. O(a+b). A and B arrays nested would be O(a*b)
+4. Drop non-dominant terms O(n+ n^2) -> O(n^2)
 
 external resource: http://bigocheatsheet.com/
 
