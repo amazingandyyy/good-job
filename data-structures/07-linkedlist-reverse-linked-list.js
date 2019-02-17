@@ -103,7 +103,7 @@ class Node {
    console.log(array, this.length);
    return array;
   }
- }
+}
  
 const myLinkedList = new LinkedList(0);
 for(let i = 1; i<10; i++) {

@@ -20,6 +20,8 @@ var twoSum = function(nums, target) {
 	let map = {};
 	for(let j=0 ; j<nums.length; j++) {
 		if(map[nums[j]]==undefined){
+			// false == 0 -> true
+			// true == 1 -> trues
 			map[target-nums[j]] = j;
 		}else{
 			return [map[nums[j]],j]
