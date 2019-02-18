@@ -1,4 +1,4 @@
-class CrazyQueue {
+class StackStackQueue {
  constructor() {
   this.first = [];
   this.last = [];
@@ -29,7 +29,7 @@ class CrazyQueue {
  }
 }
 
-const myQueue = new CrazyQueue();
+const myQueue = new StackStackQueue();
 myQueue.enqueue('Joy');
 myQueue.enqueue('Matt');
 myQueue.enqueue('Pavel');

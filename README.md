@@ -46,7 +46,7 @@ steps
 
 - [Master The Coding Interview Data Structures Algorithms](https://www.udemy.com/master-the-coding-interview-data-structures-algorithms)
 - [Algorithms In Js](https://github.com/amazingandyyy/algorithms-in-js)
-
+- [Cracking the Coding Interview - Fullstack Academy Speaker Series](https://www.youtube.com/watch?v=Eg5-tdAwclo)
 
 #### License
 

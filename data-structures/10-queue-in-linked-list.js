@@ -1,3 +1,6 @@
+// QUEUE
+// FIFO
+
 class Node {
  constructor(value, next) {
   this.value = value;
@@ -5,7 +8,7 @@ class Node {
  }
 }
 
-class Queue {
+  class Queue {
  // fifo
  constructor() {
   this.first = null;
@@ -18,7 +21,7 @@ class Queue {
  }
 
  enqueue(value) {
-  // add a new one
+  // add a new one in waitlist
   const newNode = new Node(value);
   const lastNode = this.last;
   if(lastNode){
