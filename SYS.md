@@ -1,6 +1,7 @@
 # System Design questions
 
 1. Talk through a high-level design and give an explanation for a more detailed design of each component.
+
 - What components will we need?
 - How will they communicate?
 - With what data?
@@ -12,6 +13,7 @@
   - security vulnerabilities, and technology choice.
 
 2. Drill down into lower level areas like
+
 - database schemas
 - UI interactions
 - and memory usage
