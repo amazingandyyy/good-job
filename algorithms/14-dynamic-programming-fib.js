@@ -28,4 +28,4 @@ function fibFaster(n) {
 
 console.log(fibFast()(100));
 console.log(fibFaster(100));
-console.log(fib(40));
+// console.log(fib(40));
